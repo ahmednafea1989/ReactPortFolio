@@ -5,6 +5,7 @@ import Contact from "./Page/Contact";
 import Nav from "./Nav";
 import PortFolio from "./Page/PortFolio";
 import Footer from "./Footer/Footer";
+import MyProject from "./Page/MyProjects"
 
 
 function App (){
@@ -16,9 +17,10 @@ function App (){
         <Route exact path="/" component={Home} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/PortFolio" component={PortFolio} />
+        <Route exact path="/MyProject" component={MyProject} />
+      <Footer/>
    
       </div>
-      <Footer/>
     </Router>
 
         )

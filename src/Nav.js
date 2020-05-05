@@ -30,6 +30,14 @@ function Nav() {
           PortFolio
         </Link>
       </li>
+      <li className="nav-item">
+        <Link
+          to="/MyProject"
+          className={location.pathname === "/blog" ? "nav-link active" : "nav-link"}
+        >
+          MyProjects
+        </Link>
+      </li>
       
       
     </ul>
